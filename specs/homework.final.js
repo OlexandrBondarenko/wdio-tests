@@ -23,7 +23,7 @@ it("Test Case 1", async () => {
     await expect(SignUpPage.welcomeText).toHaveTextContaining("Welcome to GitHub!")
     await browser.pause(2000)
 
-    await SignUpPage.emailInput.setValue("olexandrbondarenkoqa@gmail.com")
+    await SignUpPage.emailInput.setValue("oslexandrbondarenkoqa@gmail.com")
     await browser.pause(2000)
 
     await SignUpPage.clickOnContinueBtn()
